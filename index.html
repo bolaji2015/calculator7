@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container">
+        <div class="">
+            <input type="text" id="input" class="value">
+        </div>
+        <div class="firstrow">
+            <button onclick="input.value +='('" type="button">(</button>
+            <button onclick="input.value +=')'" type="button">)</button>
+            <button onclick="input.value = input.value.slice(0, -1)" type="button">R</button>
+            <button onclick="input.value ='eval'()">C</button>
+        </div>
+        <div class="secondrow">
+            <button onclick="input.value +='1'" type="button">1</button>
+            <button onclick="input.value +='2'" type="button">2</button>
+            <button onclick="input.value +='3'" type="button">3</button>
+            <button onclick="input.value +='+'" type="button">+</button>
+        </div>
+        <div class="thirdrow">
+            <button onclick="input.value +='4'" type="button">4</button>
+            <button onclick="input.value +='5'" type="button">5</button>
+            <button onclick="input.value +='6'" type="button">6</button>
+            <button onclick="input.value +='-'" type="button">-</button>
+        </div>
+        <div class="fourthrow">
+            <button onclick="input.value +='7'" type="button">7</button>
+            <button onclick="input.value +='8'" type="button">8</button>
+            <button onclick="input.value +='9'" type="button">9</button>
+            <button onclick="input.value +='/'" type="button">/</button>
+        </div>
+        <div class="fifthrow">
+            <button onclick="input.value +='*'" type="button">*</button>
+            <button onclick="input.value +='%'" type="button">%</button>
+            <button id="singlebutton" onclick="input.value =eval(input.value)" type="button">=</button>
+            <!-- <button onclick="input.value +='/'" type="button">/</button> -->
+        </div>
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

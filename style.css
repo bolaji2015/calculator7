@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    margin-top: 60px;
+    width: 40%;
+    min-height: 520px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+
+}
+.value{
+    width: 85%;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    margin-left: 8%;
+    border-radius: 5px;
+    font-size: large;
+
+}
+button{
+    position: relative;
+    top: 40px;
+    border-radius: 20px;
+    margin-top: 8%;
+    left: 9%;
+}
+.firstrow button{
+    width: 20%;
+    height: 39px;
+    position: relative;
+}
+.secondrow button{
+    width: 20%;
+    height: 39px;
+    position: relative;
+}
+.thirdrow button{
+    width: 20%;
+    height: 39px;
+    position: relative;
+}
+.fourthrow button{
+    width: 20%;
+    height: 39px;
+    position: relative;
+}
+.fifthrow button{
+    width: 20%;
+    height: 39px;
+    position: relative;
+}
+#singlebutton{
+    width: 43%;
+}
+@media(max-width:768px){
+    .container{
+        height: 400px;
+        width: 70%;
+        margin-left: aut;
+        margin-right: aut;
+        position: relativ;
+        
+    }
+}
+@media(max-width:1000px){
+    .container{
+        height: 500px;
+        width: 70%;
+    }
+    
+}
+@media(max-width:999px){
+    .container{
+        height: 500px;
+        width: 60%;
+    }
+}
+@media(max-width:400px){
+    .container{
+        height: 500p;
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .container{
+        height: 500p;
+        width: 100%;
+    }
+}
+/* @media(max-width:375px){
+    .container{
+        height: 400px;
+    }
+}
+/* @media(max-width:320px){
+    .container{
+        height: 350px;
+    }
+} */
+@media(max-width:810px){
+    .container{
+        height: 430px;
+    }
+}
+@media(max-width:1200px){
+    .container{
+        height: 500px;
+    }
+}
+@media(max-width:650px){
+    .container{
+        height: 380px;
+    }
+} 
